@@ -1,0 +1,15 @@
+[workspace]
+authors = ["J.S.LI <jsli@linux.com>"]
+channels = ["conda-forge"]
+name = "transformer-test"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+
+[pypi-dependencies]
+torch = ">=2.9.1, <3"
+torchvision = ">=0.24.1, <0.25"
